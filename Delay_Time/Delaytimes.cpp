@@ -8,7 +8,7 @@
 * Use Notepad++ 7.5.7 64b
 */
 
-//Librairies à inclure
+//Link with Delaytimes.h
 #include "Delaytimes.h"
 
 /*********************************************************************************************************
@@ -24,7 +24,8 @@ Delaytime::Delaytime(){
 ** Descriptions:           	Constructor 1
 *********************************************************************************************************/
 Delaytime::Delaytime(uint16_t delayt_){
-	delayt = delayt_;//Set Delay (in mS)
+	//Set Delay (in mS)
+	delayt = delayt_;
 }
 
 
@@ -34,8 +35,10 @@ Delaytime::Delaytime(uint16_t delayt_){
 *********************************************************************************************************/
 bool Delaytime::delay(){
 	if((millis() - lastexec) > delayt){
-		lastexec = millis();//Reset last Exec value
-		return true; //Return true for execute
+		//Reset last Exec value
+		lastexec = millis();
+		//Return true for execute function
+		return true; 
 	} else {
 		return false;
 	}
@@ -48,8 +51,10 @@ bool Delaytime::delay(){
 *********************************************************************************************************/
 bool Delaytime::delay(uint16_t delayt__){
 	if((millis() - lastexec) > delayt__){
-		lastexec = millis();//Reset last Exec value
-		return true; //Return true for execute
+		//Reset last Exec value
+		lastexec = millis();
+		//Return true for execute function
+		return true; 
 	} else {
 		return false;
 	}
@@ -67,4 +72,3 @@ Delaytime::~Delaytime(){
 /*********************************************************************************************************
   END FILE
 *********************************************************************************************************/
-
