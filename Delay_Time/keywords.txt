@@ -1,0 +1,29 @@
+/*
+* Delaytime.h - Library for Replace Delay in arduino library
+* This library can replace the arduino delay to avoid blocking the arduino when it was executed.
+* Created by Benoît(Bensuperpc) 17, June of 2018,
+* Updated by Benoît(Bensuperpc) for arduino 1.8.6 and newer (Not tested with previous versions)
+* Modified by X (X@gmail.com) X, X, X
+* Released into the Public domain.
+* Use Notepad++ 7.5.7 64b
+*/
+
+
+#######################################
+# Datatypes (KEYWORD1)				  #
+#######################################
+Main_CE	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)    #
+#######################################
+main_CE	KEYWORD2
+Ping LITERAL1
+Display_R_Data LITERAL1
+Cable_Check LITERAL1
+Stop_Now	LITERAL1
+Charging	LITERAL1
+#######################################
+# Constants (LITERAL1)				  #
+#######################################
+ddfddd	LITERAL1

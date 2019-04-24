@@ -1,0 +1,13 @@
+{
+  "name": "Delay_Times",
+  "keywords": "delay, time, bensuperpc",
+  "description": "?",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/bensuperpc"
+  },
+  "version": "1.20",
+  "frameworks": "arduino",
+  "platforms": "atmelavr"
+}
