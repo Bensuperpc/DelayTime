@@ -12,17 +12,13 @@
 #######################################
 # Datatypes (KEYWORD1)				  #
 #######################################
-Main_CE	KEYWORD1
+Delaytimes	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)    #
 #######################################
-main_CE	KEYWORD2
-Ping LITERAL1
-Display_R_Data LITERAL1
-Cable_Check LITERAL1
-Stop_Now	LITERAL1
-Charging	LITERAL1
+Delaytime	KEYWORD2
+delay LITERAL1
 #######################################
 # Constants (LITERAL1)				  #
 #######################################
